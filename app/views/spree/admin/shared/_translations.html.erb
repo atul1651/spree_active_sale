@@ -1,0 +1,57 @@
+<script>
+  Spree.translations = <%==
+  { :date_picker    => I18n.t(:js_format,
+                              :scope => 'spree.date_picker',
+                              :default => 'yy/mm/dd'),
+    :abbr_day_names      => I18n.t(:abbr_day_names, :scope => :date),
+    :add                 => I18n.t('spree.add'),
+    :are_you_sure_delete => I18n.t('spree.are_you_sure_delete'),
+    :bill_address        => I18n.t('spree.bill_address'),
+    :choose_a_customer   => I18n.t('spree.choose_a_customer'),
+    :confirm_delete      => I18n.t('spree.confirm_delete'),
+    :cut                 => I18n.t('spree.cut'),
+    :destroy             => I18n.t('spree.destroy'),
+    :edit                => I18n.t('spree.edit'),
+    :loading             => I18n.t('spree.loading'),
+    :month_names         => I18n.t(:month_names, :scope => :date).reject(&:blank?),
+    :more                => I18n.t('spree.more'),
+    :name                => I18n.t('spree.name'),
+    :next                => I18n.t('spree.next'),
+    :no_results          => I18n.t('spree.no_results'),
+    :on_hand             => I18n.t('spree.on_hand'),
+    :paste               => I18n.t('spree.paste'),
+    :previous            => I18n.t('spree.previous'),
+    :remove              => I18n.t('spree.remove'),
+    :rename              => I18n.t('spree.rename'),
+    :searching           => I18n.t('spree.searching'),
+    :sku                 => I18n.t('spree.sku'),
+    :type_to_search      => I18n.t('spree.type_to_search'),
+    :taxon_placeholder   => I18n.t('spree.taxon_placeholder'),
+    :value               => I18n.t('spree.value')
+  }.to_json
+%>
+</script>
+
+<script>
+  Spree.datetime_translations = <%==
+  { :date_format      => I18n.t('spree.active_sale.event.datetimepicker.js_date_format',
+                              :default => 'yy/mm/dd'),
+    :time_format      => I18n.t('spree.active_sale.event.datetimepicker.js_format',
+                              :default => 'hh:mm:ss tt z'),
+    :time_only_title  => I18n.t('spree.active_sale.event.datetimepicker.time_only_title', 
+                              :default => 'Time Only'),
+    :time_text        => I18n.t('spree.active_sale.event.datetimepicker.time_text',
+                              :default => 'Time'),
+    :hour_text        => I18n.t('spree.active_sale.event.datetimepicker.hour_text',
+                              :default => 'Hour'),
+    :minute_text      => I18n.t('spree.active_sale.event.datetimepicker.minute_text',
+                              :default => 'Minute'),
+    :second_text      => I18n.t('spree.active_sale.event.datetimepicker.second_text',
+                              :default => 'Second'),
+    :current_text     => I18n.t('spree.active_sale.event.datetimepicker.current_text',
+                              :default => 'Current'),
+    :close_text       => I18n.t('spree.active_sale.event.datetimepicker.close_text',
+                              :default => 'Close')
+  }.to_json
+%>
+</script>
